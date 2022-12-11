@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    padding: 5px 2px;
+}
+
+.header-social-container{
+    display: flex;
+    gap: 5px;
+}
+
+.header-social{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+#fb-logo{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.photo img{
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.header-cv{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+}
+
+.content-container{
+    text-align: center;
+    margin-top: 1%;
+}
+
+.content-container fieldset{
+    margin-top: 1%;
+}
+
+fieldset{ 
+    min-width: 0; /* to prevent the fieldset from overflowing width */
+    margin: 0 10px;
+    height: auto;
+}
+
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.project{
+    flex-shrink: 1;
+    height: auto;
+    width: 400px;
+    border: 2px solid black;
+    padding-bottom: 1rem;
+}
+
+.project-photo{
+    border: 1px solid black;
+}
+
+.project p{
+    font-size: larger;
+}
